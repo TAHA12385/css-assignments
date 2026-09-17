@@ -1,0 +1,53 @@
+/* h1{
+    color: green;
+     border: 2px solid white; 
+}
+p,p2 {
+    color:red;
+    font-size: 20px;
+    background-color:greenyellow;
+}
+button{
+    color: rgba(13, 62, 168, 0.795);
+     background-color:rgb(100, 198, 237);
+     
+     
+    
+}
+body{
+     background-color: gray;
+}
+    #heading1{
+        color:rosybrown;
+    } */
+     *{
+        color: green;
+        background-color: beige;
+     }
+     p,p2{
+        color: black;
+     }
+     .p-1{
+        color: blueviolet;
+     }
+     #heading{
+        color: darkblue;
+        background-color: lightblue;
+     }
+     div > p{
+        color: hotpink;
+     }
+     div p{
+        color: navy;
+     }
+     h6+p4{
+        color: brown;
+     }
+     h3~span,
+    h3~div{
+        background-color: black;
+        color: gray;
+     }
+
+     
+
