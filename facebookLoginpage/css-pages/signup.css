@@ -9,7 +9,7 @@ body {
 }
 
 #container {
-    height: 70vh;
+    padding-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ body {
 
 P {
     font-size: 16PX;
-    font-family: Segoe UI Historic;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-stretch: 100%;
     margin-bottom: 10px;

@@ -5,6 +5,8 @@
 
 #container {
     display: flex;
+    height: 100vh;
+    width: 100%;
 }
 
 #left-box {
@@ -14,9 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    position: relative;
-   
+    
 }
 
 #main-img {
@@ -98,8 +98,9 @@
     color: black;
     text-align: center;
     font-size: 25px;
-    font-family: segoe ui historic;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 40px;
+    margin-top: 30px;
 }
 
 #creat-btn {
