@@ -173,3 +173,33 @@ span {
     margin-bottom: 25px;
     font-size: 20px;
 }
+@media only screen and (max-width: 425px) {
+    #dob-icon>i {
+    margin-top: 20px;
+    font-size: 10px;
+}
+.signup-form {
+    height: 600px;
+    width: 400px;
+    background-color: white;
+
+}
+ .input-type > input{
+    width: 180px;
+ }
+}
+@media only screen and (max-width: 375px) {
+    #dob-icon>i {
+    margin-top: 20px;
+    font-size: 10px;
+}
+.signup-form {
+    height: 600px;
+    width: 300px;
+    background-color: white;
+
+}
+ .input-type > input{
+    width: 130px;
+ }
+}

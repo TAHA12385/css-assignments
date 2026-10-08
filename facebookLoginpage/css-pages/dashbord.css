@@ -129,6 +129,10 @@ nav {
     /* height: 1300px; */
 
 }
+#leftside-bar > a >i{
+    margin: 50px 0px 20px 30px;
+    font-size: 25px;
+}
 
 .sidebar-items>img {
     width: 40px;
@@ -398,3 +402,18 @@ span {
     color: #036efc;
     margin: 20px 0px 0px 120px;
 }
+/* @media only screen and (max-width: 2560px) {
+    nav {
+    width: 2560px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 5px;
+   
+  
+   
+} */
