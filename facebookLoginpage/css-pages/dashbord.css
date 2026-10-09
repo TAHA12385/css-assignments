@@ -9,9 +9,7 @@
     height: 100vh;
 
     display: flex;
-    position: relative;
-    top: 10px;
-    bottom: 10px;
+    
 
 }
 
@@ -402,18 +400,84 @@ span {
     color: #036efc;
     margin: 20px 0px 0px 120px;
 }
-/* @media only screen and (max-width: 2560px) {
-    nav {
-    width: 2560px;
+@media only screen and (max-width: 2560px) {
+  nav {
+    width: 1150px;
     height: 60px;
     background-color: white;
     display: flex;
-
-    justify-content: space-between;
+    margin-right: 25px;
+    /* margin-left: 5px; */
+    /* justify-content: space-between; */
     align-items: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    padding: 5px;
-   
-  
-   
-} */
+    /* padding: 5px; */
+}
+
+
+ .contact{
+    display: none;
+ }
+ #icons>button {
+    width: 80px;
+    height: 40px;
+    border: none;
+
+    cursor: pointer;
+}
+
+#icons>button>i {
+    font-size: 20px;
+}
+#btn-seting {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-right: 10px;
+}  
+#btn-seting>button>i {
+    font-size: 18px;
+}
+
+#face-logo > img{
+    width: 50px;
+    height: 50px;
+    /* margin-left: 5px; */
+} 
+ #search-box>input{
+ margin-left: 10px;
+ width: 200px;
+  height: 35px;
+    border-radius: 50px;
+    border: solid rgb(226, 225, 225);
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+ #container {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+}
+#middle {
+    width: 50%;
+    background-color: white;
+    
+}
+.post-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 20px; */
+    /* margin-right: 200px ;
+    display: none; */
+} 
+/* #post-header {
+    display: flex;
+    align-items: center;
+    
+}
+#post-header>img
+margin-top: 0px; */
+}
