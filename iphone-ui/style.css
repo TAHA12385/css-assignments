@@ -1,0 +1,1040 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 70px;
+    background-color: #1d1d1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: white;
+    /* margin: 30px; */
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.nav-icon {
+    color: white;
+    /* margin: 30px; */
+    font-size: 20px;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+}
+
+#sct-1 {
+    position: relative;
+    width: 100%;
+}
+
+#position1 {
+    position: absolute;
+    left: 38%;
+    top: 25%;
+    z-index: 2;
+}
+
+.image>img {
+    width: 100%;
+    height: 1200px;
+    object-fit: cover;
+}
+
+#text-area>h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#text-area>h2 {
+    color: white;
+    font-size: 50px;
+    margin: 15px 0px 0px 105px;
+}
+
+#diff {
+    color: white;
+
+    margin-top: 11%;
+    margin-left: 25%;
+    display: flex;
+}
+
+.box1-btn {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid #0071e3;
+    border-radius: 15px;
+    background-color: #0071e3;
+}
+
+.box2-btn {
+    background-color: black;
+    color: #0071e3;
+    font-size: 18px;
+    padding: 15px;
+    border: 2px solid #0071e3;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+#sct-2 {
+    position: relative;
+    width: 100%;
+}
+
+#position2 {
+    position: absolute;
+    left: 35%;
+    top: 7%;
+    z-index: 2;
+}
+
+.image>img {
+    width: 100%;
+    height: 1200px;
+    object-fit: cover;
+}
+
+#text>h1 {
+    color: black;
+    font-size: 90px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+
+#text>h2 {
+    color: black;
+    font-size: 50px;
+    margin: 15px 0px 0px 110px;
+}
+
+#text>p {
+    margin-top: 15px;
+    font-weight: bolder;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    color: #98989c;
+    font-size: 23px;
+
+
+}
+
+#buttons {
+    color: white;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.btn-1 {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid #0071e3;
+    border-radius: 15px;
+    background-color: #0071e3;
+}
+
+.btn-2 {
+
+    color: #0071e3;
+    font-size: 18px;
+    padding: 15px;
+    border: 2px solid #0071e3;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+#sct-3 {
+    position: relative;
+}
+
+.image>img {
+    width: 100%;
+    height: 1200px;
+    object-fit: cover;
+}
+
+#watch {
+    position: absolute;
+    top: 9%;
+    left: 33%;
+}
+
+#watch>h1 {
+    color: white;
+    font-size: 100px;
+}
+
+#text-3 {
+    position: absolute;
+    bottom: 18%;
+    left: 31%;
+    width: 100%;
+    /* z-index: 2; */
+    color: white;
+}
+
+#WACHT-HDNG>p {
+    font-size: 40px;
+    margin-right: 400px;
+
+}
+
+#btns {
+    position: absolute;
+    bottom: 11%;
+    left: 44%;
+
+}
+
+.btn {
+    padding: 15px;
+    border: 2px solid #0071e3;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #0071e3;
+    color: white;
+}
+
+.btn-one {
+    padding: 15px;
+    border: 2px solid #0071e3;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+
+.first-box {
+    width: 50%;
+    height: 1000px;
+    position: relative;
+    padding: 15px;
+}
+
+.imge>img {
+    width: 100%;
+    height: 1000px;
+}
+
+.psion {
+    position: absolute;
+    top: 10%;
+    left: 27%;
+}
+
+
+#txt>h1 {
+    color: white;
+    font-size: 80px;
+}
+
+#txt>h2 {
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#botn {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.btn1 {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid #0071e3;
+    border-radius: 15px;
+    background-color: #0071e3;
+}
+
+.btn2 {
+    color: #0071e3;
+    font-size: 18px;
+    padding: 15px;
+    border: 2px solid #0071e3;
+    border-radius: 15px;
+
+}
+
+.second-box {
+    width: 50%;
+    height: 1000px;
+    position: relative;
+    padding: 10px;
+}
+
+.psion {
+    position: absolute;
+    top: 10%;
+    left: 28%;
+}
+
+.imge>img {
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+
+}
+
+#txt-b>h1 {
+    color: black;
+    font-size: 80px;
+}
+
+#txt>h2 {
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#botn {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.btn1 {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid #0071e3;
+    border-radius: 15px;
+    background-color: #0071e3;
+}
+
+.btn2 {
+    color: #0071e3;
+    font-size: 18px;
+    padding: 15px;
+    border: 2px solid #0071e3;
+    border-radius: 15px;
+
+}
+
+#txt-c>h1 {
+    font-size: 70px;
+    margin-left: 50px;
+}
+
+#txt-c>h2 {
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+span {
+    color: #1169bb;
+
+}
+
+#txt-d>h1 {
+    font-size: 80px;
+    margin-left: 80px;
+}
+
+#txt-d>h2 {
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+#txt-e>h1 {
+    font-weight: bolder;
+    font-size: 70px;
+    margin-left: 150px;
+    color: black;
+}
+
+#txt-e>h2 {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+#botn2 {
+    margin-left: 120px;
+    margin-top: 15px;
+
+}
+
+#btn4 {
+    padding: 22px;
+    border-radius: 35px;
+    color: #0071e3;
+    margin-left: 15px;
+    border: 2px solid #0071e3;
+
+}
+
+#btn4:hover {
+    background-color: #0071e3;
+    color: white;
+}
+
+#psion2 {
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+    text-align: center;
+}
+
+#txt-f>h1 {
+    color: white;
+    font-size: ;
+}
+
+#txt-f>h2 {
+    color: white;
+    margin-top: 15px;
+}
+
+#btn5 {
+    display: none;
+}
+
+#sct-4 {
+    width: 100%;
+    height: 1000px;
+}
+
+#sct-4>p {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 15px 0px 15px 0px;
+}
+
+#sct-4>img {
+    width: 100%;
+    height: 1000px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 2560px) {
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        width: 76%;
+        height: 70px;
+        background-color: #1d1d1f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        gap: 60px;
+    }
+
+    .nav-icon {
+        color: white;
+        /* margin: 30px; */
+        font-size: 20px;
+        display: none;
+    }
+
+    a {
+        font-size: 30px;
+    }
+
+    #sct-1 {
+        position: relative;
+        left: 0;
+        top: 0%;
+        width: 100%;
+    }
+
+    #position1 {
+        position: absolute;
+        left: 43%;
+        top: 15%;
+        z-index: 2;
+    }
+
+    #position2 {
+        position: absolute;
+        left: 40%;
+        top: 7%;
+        z-index: 2;
+    }
+
+    #watch {
+        position: absolute;
+        top: 9%;
+        left: 38%;
+    }
+
+    .box1-btn {
+        padding: 20px;
+    }
+
+    .box2-btn {
+        padding: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 1440px) {
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        width: 78%;
+        height: 70px;
+        background-color: #1d1d1f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .nav-icon {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+
+    .first-box {
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        left: 0%;
+        right: 0%;
+        padding: 0%;
+
+    }
+
+    .second-box {
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        left: 0%;
+        top: 0%;
+        padding: 0%;
+    }
+
+    .psion {
+        position: absolute;
+        bottom: 14%;
+        left: 35%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #txt-e>h1 {
+        font-weight: bolder;
+        font-size: 100px;
+        margin-left: 0px;
+        color: black;
+    }
+
+    #botn2 {
+        margin-left: 0px;
+        margin-top: 50px;
+
+    }
+
+    #position1 {
+        position: absolute;
+        left: 32%;
+        top: 15%;
+        z-index: 2;
+    }
+
+    .image>img {
+        width: 100%;
+        height: 900px;
+    }
+
+    #position2 {
+        position: absolute;
+        left: 28%;
+        top: 7%;
+        z-index: 2;
+    }
+
+    #watch {
+        position: absolute;
+        top: 9%;
+        left: 27%;
+    }
+
+    #watch>h1 {
+        color: white;
+        font-size: 100px;
+    }
+
+    #text-3 {
+        position: absolute;
+        bottom: 18%;
+        left: 28%;
+        width: 100%;
+        /* z-index: 2; */
+        color: white;
+    }
+
+    #WACHT-HDNG>p {
+        font-size: 30px;
+        margin-right: 400px;
+        font-weight: bolder;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        width: 80%;
+        height: 70px;
+        background-color: #1d1d1f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image>img {
+        width: 100%;
+        height: 1200px;
+        object-fit: none;
+    }
+
+    #sct-1 {
+        position: relative;
+        width: 100%;
+        background-color: black;
+    }
+
+    #text-area>h1 {
+        color: white;
+        font-size: 70px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #text-area>h2 {
+        color: white;
+        font-size: 50px;
+        margin: 15px 0px 0px 105px;
+    }
+
+    #sct-3 {
+        position: relative;
+        width: 100%;
+        background-color: black;
+        height: 1200px;
+    }
+
+    #watch {
+        position: absolute;
+        top: 15%;
+        left: 23%;
+    }
+
+    #text-3 {
+        position: absolute;
+        bottom: 18%;
+        left: 22%;
+        width: 100%;
+        /* z-index: 2; */
+        color: white;
+    }
+
+    #WACHT-HDNG>p {
+        font-size: 30px;
+        margin-right: 300px;
+        font-weight: bolder;
+    }
+
+    .psion {
+        position: absolute;
+        bottom: 14%;
+        left: 30%;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #position1 {
+        position: absolute;
+        left: 25%;
+        top: 20%;
+        z-index: 2;
+    }
+
+    #position2 {
+        position: absolute;
+        left: 20%;
+        top: 9%;
+        z-index: 2;
+    }
+
+    #watch {
+        position: absolute;
+        top: 10%;
+        left: 20%;
+    }
+
+    #watch>h1 {
+        color: white;
+        font-size: 80px;
+    }
+
+    #WACHT-HDNG>p {
+        font-size: 35px;
+        margin-right: 300px;
+        font-weight: bolder;
+    }
+
+    .psion {
+        position: absolute;
+        bottom: 14%;
+        left: 25%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+    }
+
+    .image>img {
+        width: 100%;
+        height: 1200px;
+        object-fit: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+    }
+    header {
+        width: 100%;
+    }
+    nav {
+        width: 100%;
+        height: 60px;
+        /* padding: 0 12px; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+
+    nav a {
+        font-size: 30px;
+        /* white-space: nowrap; */
+    }
+
+    nav a:nth-of-type(n+4) {
+        display: none;
+    }
+
+    #sct-2 {
+        width: 100%;
+        height: 700px;
+        position: relative;
+    }
+
+    #sct-2 .image>img {
+        display: block;
+        width: 100%;
+        height: 650px;
+        /* object-fit: cover; */
+        object-position: center;
+    }
+
+    #sct-3 {
+        display: none;
+    }
+
+    #sct-1 {
+        display: none;
+    }
+
+    #position2 {
+        top: 10%;
+        left: 0;
+        width: 100%;
+        padding: 0 12px;
+        text-align: center;
+    }
+
+    #diff {
+        justify-content: center;
+        margin: 20px 0 0;
+        gap: 10px;
+    }
+
+    .box1-btn,
+    .box2-btn {
+        font-size: 14px;
+        padding: 10px 15px;
+        margin: 0;
+    }
+
+    /* SECOND IPHONE SECTION */
+    #position2 {
+        top: 10%;
+        left: 0;
+        width: 100%;
+        padding: 0 12px;
+        text-align: center;
+    }
+
+    #text h1 {
+        font-size: 42px;
+        margin: 0;
+    }
+
+    #text h2 {
+        font-size: 26px;
+        margin: 10px 0;
+    }
+
+    #text p {
+        font-size: 14px;
+        margin: 12px auto;
+        line-height: 1.5;
+    }
+
+    #buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 18px 0 0;
+    }
+
+    .btn-1,
+    .btn-2 {
+        font-size: 14px;
+        padding: 10px 13px;
+        margin: 0;
+    }
+
+    /* APPLE WATCH SECTION */
+    #watch {
+        top: 7%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    #watch h1 {
+        font-size: 34px;
+    }
+
+    #text-3 {
+        bottom: 17%;
+        left: 0;
+        width: 100%;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    #WACHT-HDNG p {
+        font-size: 18px;
+        margin: 0;
+        line-height: 1.5;
+    }
+
+    #btns {
+        bottom: 8%;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .btn,
+    .btn-one {
+        font-size: 14px;
+        padding: 10px 15px;
+        margin: 0;
+    }
+
+    /* TWO-BOX SECTIONS */
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 0 8px;
+    }
+
+    .first-box,
+    .second-box {
+        width: 100%;
+        height: 600px;
+        padding: 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .imge {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imge img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .psion {
+        top: 7%;
+        left: 0;
+        width: 100%;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    #txt h1,
+    #txt-b h1 {
+        font-size: 35px;
+        margin: 0;
+    }
+
+    #txt h2,
+    #txt-b h2 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    #txt-c h1,
+    #txt-d h1,
+    #txt-e h1 {
+        font-size: 36px;
+        margin: 0;
+    }
+
+    #txt-c h2,
+    #txt-d h2,
+    #txt-e h2 {
+        font-size: 18px;
+        margin: 12px 0;
+        line-height: 1.4;
+    }
+
+    #botn,
+    #botn2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 18px 0 0;
+    }
+
+    .btn1,
+    .btn2 {
+        font-size: 14px;
+        padding: 10px 14px;
+        margin: 0;
+    }
+
+    #btn4 {
+        font-size: 14px;
+        padding: 10px 14px;
+        margin: 0;
+    }
+
+    #psion2 {
+        position: absolute;
+        bottom: 8%;
+        left: 0;
+        width: 100%;
+        padding: 0 12px;
+        text-align: center;
+    }
+
+    #txt-f h1 {
+        font-size: 32px;
+    }
+
+    #txt-f h2 {
+        font-size: 17px;
+        margin-top: 12px;
+    }
+
+    #btn5 {
+        display: inline-block;
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+
+    /* ENTERTAINMENT SECTION */
+    #sct-4 {
+        width: 100%;
+        height: auto;
+        padding: 15px 8px;
+        overflow: hidden;
+    }
+
+    #sct-4 p {
+        font-size: 30px;
+        margin: 10px 0 20px;
+    }
+
+    #sct-4 img {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        object-fit: contain;
+    }
+}
