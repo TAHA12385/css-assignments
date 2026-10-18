@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">E-commerce</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">kids</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            All categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">men</a></li>
+                            <li><a class="dropdown-item" href="#">women</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">kids</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-success boder" type="submit">Login</button>
+                    <button class="btn btn-outline-success" type="submit">sign up</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- crousal -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image.avif" class="d-block w-100" alt="..." width="98%" height="700px">
+            </div>
+            <div class="carousel-item">
+                <img src="imagefore.avif" class="d-block w-100" alt="..." width="98%" height="700px">
+            </div>
+            <div class="carousel-item">
+                <img src="pexels-solliefoto-298863.jpg" class="d-block w-100" alt="..." width="98%" height="700px">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- men products -->
+    <section id="men">
+        <h1>Men products</h1>
+        <div class="cards-parent">
+            <div class="card" style="width: 18rem;">
+                <img src="https://i.pinimg.com/originals/02/3b/32/023b3212fc8163bb76c476d0fc54ae7f.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">men's shoes</h5>
+                    <p class="card-text">Discover the ultimate guide to types of men’s shoes with pictures and names.
+                        Learn the difference between Oxford, Derby, Monk Strap, Loafers, Chelsea Boots, Sneakers, Chukka
+                        Boots, Sandals, Moccasins, and more.</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://i.pinimg.com/736x/34/a0/70/34a0705bca2aa5417da6bfd60a0614c7.jpg" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">branded shoes</h5>
+                    <p class="card-text"> Dior 20240907 2024 Dior Men leather shoes 0906 Dior sz38-45 mnw0218</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; ">
+                <img src="https://i.pinimg.com/736x/8b/d7/5c/8bd75cf83e621d14b263d75a3b89aae0.jpg" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">jogers</h5>
+                    <p class="card-text"> Dior 20240907 2024 Dior Men leather shoes 0906 Dior sz38-45 mnw0218</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.gulahmedshop.com/cdn/shop/files/ambassador-ps-unstitched-fabric-washnwear-teal-fullshot-front_49e32c8b-409c-42e5-a7ac-28aa0b4072d5.jpg?v=1792216437&width=900"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">men collection's</h5>
+                    <p class="card-text">Ambassador Unstitched Fabric Blended with Gift Box -N</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.gulahmedshop.com/cdn/shop/files/DSCF5948_1e712919-7bb1-4680-bfce-f7ed5833059c.jpg?v=1792066992&width=900"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Boski</h5>
+                    <p class="card-text">Boski Original Unstitched Fabric Silk with Gift Box 26</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcROd4ZY6D4OQVhU8cHGm2ODnVVPJ7yVFBSk8uzmgB0-aE6V2_NN"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">paint-shirt</h5>
+                    <p class="card-text">Decoding Men’s Fashion — 7 Principles to Make Your Wardrobe More Attractive</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/qGl-XAWCEzvbImlgYSWrNSXfd5BhgPgis0DfYrHbRnGpb3sXhQjdkiHBV_bXLu35ht51KpK4hWc87sgC6JtyHai8V-COBQko7cqvFkNyVYHprXVngf3bS_8bk3BnkKJr2s96XQ7vBT2VsohyATtiA52BPJdtgSYJdBMG4DnOM28?purpose=inline"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Men's Slim Fit Blue Jeans</h5>
+                    <p class="card-text">Men's Slim Fit Blue Jeans</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/Vu5RRD-tYXstBOkGsVuKJIK7G9FTDtWimVKCbMZHT0dovol_z4tMY0rUU0EW99jHwpt0JW4u7kTkiyXzwQQFoQW-W7mTqdacwD1Mv-teT41k-DzlylL7SgOQMw5t4kdoI4n7O8BQeUfVs-hmz3XOPHtlHqegnesWckHrJ_ilkwvJIWq8daANWGT5GzAKeg5R?purpose=fullsize"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Men's Black Formal Pants</h5>
+                    <p class="card-text">Classic black trousers with a straight-leg fit. Suitable for office wear,
+                        meetings, and formal occasions.
+                        PKR 2,800</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/T-uQcoVZ75JG5df5MU493YK5OP7WEVdz7hh8LYe-PD_EkMtsVijC96IzM2NOlxNjjE9zuKyfoMaMG7gVFyPV7UWDaoh429n8lDQJc1NqKo1TngT265WHS10JCxeMQINC9az8yRJ-ccqqam2Z1tx0LMiss8ei9gi3D_YzSlrPNQbBX0D4cREvuF3jKn11mpsN?purpose=fullsize"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Men's Black Polo T-Shirt</h5>
+                    <p class="card-text">A classic short-sleeve polo with a collar and soft fabric. Great for casual
+                        outings and everyday styling.
+                        PKR 1,800</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary my-btn">See All</button>
+    </section>
+    <section id="women">
+        <h1>women products</h1>
+        <div class="cards-parent">
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/jzyOrXURvs8uaYbKBiINL17-zfGyxA_OWCnA9vdOxXzbRr0lsW9_jeisYr-aCSkUGJM7gmYe44YY5tLKPe43ecO8PLuKABhEWuyNWNUR5twV76ZJyppKrf2jjHKjccIRO9bo3YjTuULPckmCVbjc3q5pU4TeDEWfL6qRp7MWlBVkElWJiTuRD2nEv7yZmTRA?purpose=fullsize"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">A beautiful floral midi dress with a flattering fit, soft fabric, and an
+                        elegant design for casual outings.
+                        PKR 3,200
+                    </p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/exeHmz8SyzMTSc41LxWSIRUU4qOmXDuzmd578wLVr-qd4F4VHQaEZPeK-gqgNR6lyprvU1yPY5uHei443-ZFRqmdCnINhIzev8QtTzDzxYOqr0yJSVc1c79U5iO7SSAsD_s6HIC54EEXX8iKjrOViQhmtxq-T8QVuQhrYS_q7QU?purpose=inline"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">A beautiful floral midi dress with a flattering fit, soft fabric, and an
+                        elegant design for casual outings.
+                        PKR 3,200</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; ">
+                <img src="https://images.openai.com/static-rsc-4/exeHmz8SyzMTSc41LxWSIRUU4qOmXDuzmd578wLVr-qd4F4VHQaEZPeK-gqgNR6lyprvU1yPY5uHei443-ZFRqmdCnINhIzev8QtTzDzxYOqr0yJSVc1c79U5iO7SSAsD_s6HIC54EEXX8iKjrOViQhmtxq-T8QVuQhrYS_q7QU?purpose=inline"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">Stylish high-waist denim jeans with a comfortable fit, classic blue colour, and
+                        versatile everyday appeal for modern outfits.
+                        PKR 2,800</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/poawK9U7UjvGFCdpxQUCLTyuxPpUTltxrNK0XR72xQzs2dUitmS4iYBj8M59_MPByJyDqWkYfDjCB1sorr-Uvg72JApiXJWRF_IkT2cJQd21y9gl6qJS7tiEmRQvu4m9gmrD3XfzWVm7M9RZJui0qHvmfRyUfpbmeGiGceuvZR9a0KEQKgVejOZhF7lqebHB?purpose=fullsize"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">A chic shoulder handbag with a spacious interior, sturdy straps, and a warm tan
+                        finish for daily essentials.
+                        PKR 3,800</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/YQ6Z4BFd0BuH_3Q0oSaE3zF4VXaZBDrlGBX3jf4pmFWcEKILMRrSvt2c_el2-geDcn_C3CJt8Qd7BSilo44_xj3HSpLsDa6t967Zvr-lL8VDB9Dtf9CYxkJ1-k-qxCsKVclrPDZuaKF5xSg09MsffM4KzNYUVxRG-G5Z99OjK8MCW-09Y8FYA3sPFkjNRDjP?purpose=fullsize"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">A chic shoulder handbag with a spacious interior, sturdy straps, and a warm tan
+                        finish for daily essentials.
+                        PKR 3,800</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/YQ6Z4BFd0BuH_3Q0oSaE3zF4VXaZBDrlGBX3jf4pmFWcEKILMRrSvt2c_el2-geDcn_C3CJt8Qd7BSilo44_xj3HSpLsDa6t967Zvr-lL8VDB9Dtf9CYxkJ1-k-qxCsKVclrPDZuaKF5xSg09MsffM4KzNYUVxRG-G5Z99OjK8MCW-09Y8FYA3sPFkjNRDjP?purpose=fullsize"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">A chic shoulder handbag with a spacious interior, sturdy straps, and a warm tan
+                        finish for daily essentials.
+                        PKR 3,800</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/YQ6Z4BFd0BuH_3Q0oSaE3zF4VXaZBDrlGBX3jf4pmFWcEKILMRrSvt2c_el2-geDcn_C3CJt8Qd7BSilo44_xj3HSpLsDa6t967Zvr-lL8VDB9Dtf9CYxkJ1-k-qxCsKVclrPDZuaKF5xSg09MsffM4KzNYUVxRG-G5Z99OjK8MCW-09Y8FYA3sPFkjNRDjP?purpose=fullsize"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">A chic shoulder handbag with a spacious interior, sturdy straps, and a warm tan
+                        finish for daily essentials.
+                        PKR 3,800</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/y1rboZO83zvnL9ciw3w95eJ22wQeK_gc6gG6HWCVuxP9nnXMfR42bS6YZ4PrCClDu4jLL8d73AkCTPBzqPL9LqG2R4uIsrimH4CtYoATghlVqsDXhPWa1m3oa6Ebuxk9haWiaJ8oHnD38Q8yxAWX4sbtZqantZTpvgAKcVCaRCg?purpose=inline"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">A chic shoulder handbag with a spacious interior, sturdy straps, and a warm tan
+                        finish for daily essentials.
+                        PKR 3,800</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/RM3EetyryzYl-Dw97J3xHDXa2HxSApicDW9i92AafumSKa2SZC2WSg8tE-DValsVx_NEF3LMG32SYWnblXBLbwh9EEB5OTjkR9hUzKyxxw_a4XExzIryYi_FGfOhowffVZEwdzenjA_rDT6QDH4k7C5M3EdL-H8nhfaE4MVTvQs?purpose=inline"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">A chic shoulder handbag with a spacious interior, sturdy straps, and a warm tan
+                        finish for daily essentials.
+                        PKR 3,800</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+
+        </div>
+        <button type="button" class="btn btn-primary my-btn">See All</button>
+    </section>
+    <section id="kids">
+        <h1>kid's products</h1>
+        <div class="cards-parent">
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/Wscv15HMYOTG-qOG8zpzOr6bG0UBiZeL34ZMOLYnhPqDFE19nHNRR9ytNiwf5d67EsHNPZjCpo6h3GWQmd_nBts4o4OghexGAnsgUrztVsESlOn0dg3g5jIoGotpaxjXOrQAmzGl-FOdWs0SEd0VRLRXyrVshd4M92VbezTMKwc?purpose=inline"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">A cheerful yellow T-shirt made from soft cotton, with a comfortable fit and
+                        playful style for everyday adventures.
+                        PKR 850</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/lvjbEPol33Wlvc9DGfGdsgfa_PH_iy7_5qhHGXYB2Wtb8wHQj8kf-yKwgOeqrERZ6XB-Wj_rMvRJ0-xybXSizffOFlCyR3m200_HGMNOR2vuMfACLpPZgRAI0_bVVn5mL_3J50l3Q1GsVtbvOowPPhToVe2vJLGRrLjs8KiMwNqXXacvw8slxhplPZDtekDz?purpose=fullsize"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">Classic blue jeans featuring durable denim, a comfortable waistband, and a
+                        versatile design for school or outings.
+                        PKR 1,600</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; ">
+                <img src="https://images.openai.com/static-rsc-4/Wscv15HMYOTG-qOG8zpzOr6bG0UBiZeL34ZMOLYnhPqDFE19nHNRR9ytNiwf5d67EsHNPZjCpo6h3GWQmd_nBts4o4OghexGAnsgUrztVsESlOn0dg3g5jIoGotpaxjXOrQAmzGl-FOdWs0SEd0VRLRXyrVshd4M92VbezTMKwc?purpose=inline"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">A cheerful yellow T-shirt made from soft cotton, with a comfortable fit and
+                        playful style for everyday adventures.
+                        PKR 850</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/Wscv15HMYOTG-qOG8zpzOr6bG0UBiZeL34ZMOLYnhPqDFE19nHNRR9ytNiwf5d67EsHNPZjCpo6h3GWQmd_nBts4o4OghexGAnsgUrztVsESlOn0dg3g5jIoGotpaxjXOrQAmzGl-FOdWs0SEd0VRLRXyrVshd4M92VbezTMKwc?purpose=inline"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">A cheerful yellow T-shirt made from soft cotton, with a comfortable fit and
+                        playful style for everyday adventures.
+                        PKR 850</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/lvjbEPol33Wlvc9DGfGdsgfa_PH_iy7_5qhHGXYB2Wtb8wHQj8kf-yKwgOeqrERZ6XB-Wj_rMvRJ0-xybXSizffOFlCyR3m200_HGMNOR2vuMfACLpPZgRAI0_bVVn5mL_3J50l3Q1GsVtbvOowPPhToVe2vJLGRrLjs8KiMwNqXXacvw8slxhplPZDtekDz?purpose=fullsize"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">Classic blue jeans featuring durable denim, a comfortable waistband, and a
+                        versatile design for school or outings.
+                        PKR 1,600</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/Wscv15HMYOTG-qOG8zpzOr6bG0UBiZeL34ZMOLYnhPqDFE19nHNRR9ytNiwf5d67EsHNPZjCpo6h3GWQmd_nBts4o4OghexGAnsgUrztVsESlOn0dg3g5jIoGotpaxjXOrQAmzGl-FOdWs0SEd0VRLRXyrVshd4M92VbezTMKwc?purpose=inline"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">A cheerful yellow T-shirt made from soft cotton, with a comfortable fit and
+                        playful style for everyday adventures.
+                        PKR 850</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/lvjbEPol33Wlvc9DGfGdsgfa_PH_iy7_5qhHGXYB2Wtb8wHQj8kf-yKwgOeqrERZ6XB-Wj_rMvRJ0-xybXSizffOFlCyR3m200_HGMNOR2vuMfACLpPZgRAI0_bVVn5mL_3J50l3Q1GsVtbvOowPPhToVe2vJLGRrLjs8KiMwNqXXacvw8slxhplPZDtekDz?purpose=fullsize"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">Classic blue jeans featuring durable denim, a comfortable waistband, and a
+                        versatile design for school or outings.
+                        PKR 1,600</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/lvjbEPol33Wlvc9DGfGdsgfa_PH_iy7_5qhHGXYB2Wtb8wHQj8kf-yKwgOeqrERZ6XB-Wj_rMvRJ0-xybXSizffOFlCyR3m200_HGMNOR2vuMfACLpPZgRAI0_bVVn5mL_3J50l3Q1GsVtbvOowPPhToVe2vJLGRrLjs8KiMwNqXXacvw8slxhplPZDtekDz?purpose=fullsize"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">Classic blue jeans featuring durable denim, a comfortable waistband, and a
+                        versatile design for school or outings.
+                        PKR 1,600</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.openai.com/static-rsc-4/lvjbEPol33Wlvc9DGfGdsgfa_PH_iy7_5qhHGXYB2Wtb8wHQj8kf-yKwgOeqrERZ6XB-Wj_rMvRJ0-xybXSizffOFlCyR3m200_HGMNOR2vuMfACLpPZgRAI0_bVVn5mL_3J50l3Q1GsVtbvOowPPhToVe2vJLGRrLjs8KiMwNqXXacvw8slxhplPZDtekDz?purpose=fullsize"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+
+                    <p class="card-text">Classic blue jeans featuring durable denim, a comfortable waistband, and a
+                        versatile design for school or outings.
+                        PKR 1,600</p>
+                    <a href="#" class="btn btn-primary">add cart</a>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary my-btn">See All</button>
+    </section>
+    <footer class="bg-body-tertiary text-center text-md-start py-4 mt-auto">
+        <div class="container">
+            <div class="row align-items-center justify-content-between flex-column flex-md-row">
+                <div class="col-auto mb-2 mb-md-0">
+                    <span class="text-muted">&copy; 2026 Your Company. All rights reserved.</span>
+                </div>
+                <div class="col-auto">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-muted me-3">Privacy
+                                Policy</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-muted me-3">Terms of
+                                Service</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-muted">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.btn {
+    margin: 2px;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.btn:hover {
+    bg-primary
+}
+.my-btn {
+ margin-left: 48%;
+      margin-top: 50px;
+    margin-bottom: 20px;
+    border: none;
+    color: white;
+  
+}
+.cards-parent{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap ;
+}
+#men > h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.card>img{
+    height: 200px;
+}
+#women>h1{
+    text-align: center;
+      margin-top: 10px;
+    margin-bottom: 30px;
+}
+#kids>h1{
+     text-align: center;
+      margin-top: 10px;
+    margin-bottom: 30px;
+}
+/* media only screen and (max-width: 1440px) {
+    .cards-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr 1fr);
+    gap: 30px;
+
+}
+
+    .card>img{
+    height: 200px;
+    width: 500px;
+}
+}@ */
